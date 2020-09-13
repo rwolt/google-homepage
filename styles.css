@@ -18,7 +18,10 @@ body{
     font-size: 13px; 
     padding: 10px;
     text-align: center;
-    
+}
+
+.header a:hover{
+    text-decoration: underline;
 }
 
 #about{
@@ -60,19 +63,18 @@ body{
     background-image: url(images/search.png), url(images/mic.svg);
     background-repeat: no-repeat, no-repeat;
     background-size: 25px, 25px;
-    background-position:13px, 98%;
-
-
-    
-    
+    background-position:13px, 98%;  
+}
+#search-box:hover{
+    box-shadow: 1px 1px 3px 2px rgba(0,0,0,0.1);
 }
 
 #buttons{
-    width: 50%;
+    width: 292px;
     margin: 30px auto;
 }
 
-#buttons button{
+button{
     font-family: Arial;
     font-size: 14px;
     color: #5f6368;
@@ -80,7 +82,15 @@ body{
     border-radius: 5px;
     text-align: center;
     padding: 10px 17px;
-    margin: 0 3px
+    margin: 1px 3px;                    
+}
+
+button:hover{
+    color: #222;
+    box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.1);
+    border: 1px solid #bbb;
+    margin: 0px 2px;
+    
 }
 
 
@@ -113,6 +123,10 @@ img#logo{
     text-align: center;
     height: 100%;
     padding: 10px 15px;
+}
+
+#footer a:hover{
+    text-decoration: underline;
 }
 
 #ads{
