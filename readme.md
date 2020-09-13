@@ -2,6 +2,6 @@ The purpose of this project is to create the Google homepage and search results 
 
 Skills demonstrated:
 
--CSS Layout
--Using browser developer tools to reverse engineer page  design and functionality
--
+CSS Layout
+Using browser developer tools to reverse engineer page  design and functionality
+
